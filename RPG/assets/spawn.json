@@ -1,0 +1,8 @@
+{
+    "key": "spawn",
+    "events": [
+        "You wake up in the slightly damp grass; you can't remember why you're here but a feeling comes over you: you're a hero.", 
+        "Your eyes are tired, you smell something stinky next to you, at first you think it's you, then you realise you're standing on a shit cow.\nThe farmhouse is staring at you with a look that reminds you of your father....she's asking you for help, she says there are monsters prowling around."
+    ],
+    "comments":"random events text lors du spawn du joueur"
+}

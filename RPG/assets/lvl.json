@@ -1,0 +1,5 @@
+{
+    "key": "lvl",
+    "events": ["You feel something on you....something different. You are lvl %s", "You farting a lot, that's makes you serein. You are lvl %s"],
+    "comments":"random events text de la prise de niveau."
+}

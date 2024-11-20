@@ -1,0 +1,13 @@
+{
+    "outcome":[
+        {
+            "key": "winner",
+            "events": ["Despite the boar's rage, you manage to put an end to its life....poor beast..... You won the fight.", "You put an end to a horde of bats harassing Timeo. Everyone in the village hates Timeo, even you. You won the fight"]
+        },
+        {
+            "key": "looser",
+            "events": ["You meet a goblin who shows you his arse, it repulses you, you give up the fight. You lost the fight.", "After giving the slime a blow, you notice that it's crying. After a few introductions, you learn that the slime has just lost two of its sons, for which you must be responsible, and is looking for a way to start a new life. With tears in your eyes, you wished each other well and went your separate ways. You lost the fight."]
+        }
+    ],
+    "comments":"random events text des phases de pexing"
+}

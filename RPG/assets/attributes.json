@@ -1,0 +1,30 @@
+{
+    "attributes":[
+        {
+            "key": "hp",
+            "events": [
+                "You examine your body for injuries. You have %s HP.", 
+                "You feel and squeeze your body to see if you feel any pain. Unfortunately, all you feel is your mother's disappointment. You have %s HP."
+            ]
+        },{
+            "key": "attack",
+            "events": [
+                "You hit this barrel hard, bravo you're manly but mostly you make yourself look like a dick. You have %s attack.", 
+                "You've been through a lot, it's true....but that doesn't mean you can use Timeo to vent your frustrations! He's just a child, I remind you. You have %s attack."
+            ]
+        },{
+            "key": "dodge",
+            "events": [
+                "You move from left to right as fast as you can; a passer-by gives you 1 coin, thinking you were doing a kapoera. You have %s dodging.", 
+                "You provoke a tavern customer to test your new reflexes; No chance or you're bad (we don't know) but the volley of blows got to you. You have %s dodging."
+            ]
+        },{
+            "key": "magic",
+            "events": [
+                "You're reading a runic book with a deep look on your face, which attracts the attention of a young woman (of legal age). She realises after a few minutes that you've fallen asleep. You have %s mana.", 
+                "You play a few tricks on the patrons of the tavern to win some pitiful applause. Unfortunately, you get beaten up by the guards, who think you're robbing people. You have %s mana."
+            ]
+        }
+    ],
+    "comments":"random events text avec les différents attributs (hp, attack, dodge, magic)"
+}
