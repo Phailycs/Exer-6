@@ -1,9 +1,9 @@
-from classes import character
+from classes import classes
 from modules import gameplay
 
 while(True):
     exit == False
-    player = character.Character()
+    player = classes.Homeless(5, 10, 1, 1)
     gameplay.spawn(player)
     while(exit != True):
         print("The commands available are: pex, beat {class}, lvl, hp.\nTo exit the program, type ‘exit’.") if player.get_lvl() > 5 else print("The commands available are: pex, lvl, hp.\nTo exit the program, type ‘exit’.")
@@ -18,14 +18,15 @@ while(True):
             case "pex":
                 print("======================================================================================================")
                 gameplay.pex(player)
-                print(player.get_exp())
-                print(player.get_next_lvl())
                 print("======================================================================================================")
             case "beat":
-                if player.get_lvl() >= 5: 
-                    print("======================================================================================================")
-                    gameplay.beat(player, input_list[1])
-                    print("======================================================================================================")
+                if (player.get_lvl() >= 5):
+                    if(len(input_list) > 1): 
+                        print("======================================================================================================")
+                        gameplay.beat(player, input_list[1])
+                        print("======================================================================================================")
+                    else:
+                        print("Missing argument.")
                 else:
                     print("Can't you read or something?")
             case "lvl":

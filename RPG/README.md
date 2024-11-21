@@ -8,8 +8,8 @@ Les stats sont les suivantes : pv, atq, magie, esquive
 Je peux gagner de l'expérience en tapant des monstres -> en écrivant "pex" dans la console  
 Chaque monstre me rapporte 10 exp. Pour atteindre le lvl 2, il faut 10 exp (un monstre)  
 Chaque niveau suivant s'obtient comme cela -> exp requise = exp actuelle requise + 10  
-Pour atteindre le lvl 3, il faut donc 20 exp (deux monstres)
-Pour atteindre le lvl 4, il faut donc 30 exp (trois monstres). Etc...  
+Pour atteindre le lvl 2, il faut donc 20 exp (deux monstres)
+Pour atteindre le lvl 3, il faut donc 30 exp (trois monstres). Etc...  
 Tous les lvl, jusqu'au lvl 5, je gagne 1 point partout sauf en esquive
 
 Quand j'atteinds le lvl 5, je dois avoir une classe attribuée au hasard entre guerrier, mage et archer  
