@@ -73,7 +73,7 @@ class Monster():
 
     def receive_dmg(self, damage):
         self.set_hp(self.get_hp() - damage)
-        print(self.get_name() + " douille un max. Il a subit " + damage + " de dégat(s).")
+        print(self.get_name() + " douille un max. Il a subit " + str(damage) + " de dégat(s).")
 
     def show_stats(self):
         print("Level: " + str(self.get_lvl()))

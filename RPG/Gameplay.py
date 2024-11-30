@@ -2,7 +2,7 @@ from classes.Monster import Monster
 import random
 
 def pexing(player):
-    monster = Monster("SANGLIER", 2)
+    monster = Monster("SANGLIER", player.get_lvl())
     fight = True
     while(fight is True):
         player.attack(monster)
@@ -10,10 +10,11 @@ def pexing(player):
             print("Toi t'es un bon.")
             player.gain_exp(10)
             fight = False
-        monster.attack(player)
-        if player.get_hp() == 0:
-            print("Looser va.")
-            fight = False
+        if fight == True:
+            monster.attack(player)
+            if player.get_hp() == 0:
+                print("Looser va.")
+                fight = False
 
 def gain_class(player):
     print("Tu viens d'obtenir une classe ! La classe nan ?")
